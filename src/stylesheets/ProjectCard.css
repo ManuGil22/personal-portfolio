@@ -1,0 +1,34 @@
+:root {
+    --card-border-radius: 12px;
+}
+
+h3 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.project-card {
+    width: 400px;
+    height: 470px;
+    margin: 50px;
+    background-color: var(--home-background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: var(--card-border-radius);
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: var(--card-border-radius);
+    border-top-right-radius: var(--card-border-radius);
+}
+
+.divider{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+}

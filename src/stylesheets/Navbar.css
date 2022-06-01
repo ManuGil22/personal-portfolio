@@ -23,7 +23,7 @@
 }
 
 .nav-list a:hover {
-    background-color: #a71e34;
+    background-color: var(--navbar-hover-color);
 }
 
 ul {

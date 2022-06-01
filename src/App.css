@@ -1,21 +1,13 @@
 :root {
   --navbar-color: #C71F37;
-  --home-background-color: black;
+  --navbar-hover-color: #A71E34;
+  --home-background-color: #161a1d;
 }
 
 * {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-}
-
-.home-section{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--home-background-color);
-  height: 100vh;
 }
 
 h1 {
@@ -29,4 +21,32 @@ h2 {
   color: var(--navbar-color);
   font-weight: 400;
   font-style: italic;
+}
+
+.home-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--home-background-color);
+  height: 100vh;
+}
+
+.work-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-header {
+  font-size: 48px;
+  text-decoration: underline;
+  margin: 80px;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
 }
