@@ -19,16 +19,16 @@ function App() {
                     <ProjectCard imgSrc={require('./images/todo-list.png')} cardTitle="To-do list" githubRepo="https://github.com/ManuGil22/to-do-list" liveSite="https://manugil22.github.io/to-do-list/" />
                     <ProjectCard imgSrc={require('./images/advice-generator.png')} cardTitle="Advice generator" githubRepo="https://github.com/ManuGil22/advice-generator-app" liveSite="https://manugil22.github.io/advice-generator-app/" />
                 </div>
-                <a href="https://www.frontendmentor.io/profile/ManuGil22/solutions" target="_blank" class="btn" id="profile-link">Show all ➜</a>
+                <a href="https://www.frontendmentor.io/profile/ManuGil22/solutions" target="_blank" rel="noreferrer" class="btn" id="profile-link">Show all ➜</a>
             </div>
             <div className='contact-section'>
                 <h2 className='contact-header'>Lets work together...</h2>
                 <div className='contact-links'>
-                    <a href="https://www.linkedin.com/in/manuel-gil-958687235/" target="_blank"><BsLinkedin className="icon" color='white'/></a>
-                    <a href="https://wa.me/5492235951246" target="_blank"><BsWhatsapp className="icon" color='white'/></a>
-                    <a href="https://github.com/ManuGil22" target="_blank"><BsGithub className="icon" color='white' /></a>
-                    <a href="https://mailto:manuelgilmoltrasio@gmail.com" target="_blank"><BsFillEnvelopeFill className="icon" color='white' /></a>
-                    <a href="https://www.frontendmentor.io/profile/ManuGil22" target="_blank"><SiFrontendmentor className="icon" color='white' /></a>
+                    <a href="https://www.linkedin.com/in/manuel-gil-958687235/" target="_blank" rel="noreferrer"><BsLinkedin className="icon" color='white'/></a>
+                    <a href="https://wa.me/5492235951246" target="_blank" rel="noreferrer"><BsWhatsapp className="icon" color='white'/></a>
+                    <a href="https://github.com/ManuGil22" target="_blank" rel="noreferrer"><BsGithub className="icon" color='white' /></a>
+                    <a href="https://mailto:manuelgilmoltrasio@gmail.com" target="_blank" rel="noreferrer"><BsFillEnvelopeFill className="icon" color='white' /></a>
+                    <a href="https://www.frontendmentor.io/profile/ManuGil22" target="_blank" rel="noreferrer"><SiFrontendmentor className="icon" color='white' /></a>
                 </div>
             </div>
             <footer>
