@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.43025680.css",
-    "main.js": "/personal-portfolio/static/js/main.13995e61.js",
+    "main.css": "/personal-portfolio/static/css/main.2ef46fe5.css",
+    "main.js": "/personal-portfolio/static/js/main.b461a89d.js",
     "static/media/calculator.png": "/personal-portfolio/static/media/calculator.22c298bb009aae9508e4.png",
-    "static/media/todo-list.png": "/personal-portfolio/static/media/todo-list.3e262b2b340a00adca15.png",
+    "static/media/todo-list.png": "/personal-portfolio/static/media/todo-list.c8debdc3c6b839515234.png",
     "static/media/advice-generator.png": "/personal-portfolio/static/media/advice-generator.6a994afa3e12f32022e3.png",
     "index.html": "/personal-portfolio/index.html",
-    "main.43025680.css.map": "/personal-portfolio/static/css/main.43025680.css.map",
-    "main.13995e61.js.map": "/personal-portfolio/static/js/main.13995e61.js.map"
+    "main.2ef46fe5.css.map": "/personal-portfolio/static/css/main.2ef46fe5.css.map",
+    "main.b461a89d.js.map": "/personal-portfolio/static/js/main.b461a89d.js.map"
   },
   "entrypoints": [
-    "static/css/main.43025680.css",
-    "static/js/main.13995e61.js"
+    "static/css/main.2ef46fe5.css",
+    "static/js/main.b461a89d.js"
   ]
 }
