@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import ProjectCard from './components/ProjectCard';
+import { BsLinkedin, BsWhatsapp, BsGithub, BsFillEnvelopeFill } from 'react-icons/bs'
 
 function App() {
     return (
@@ -18,6 +19,19 @@ function App() {
                     <ProjectCard imgSrc={require('./images/advice-generator.png')} cardTitle="Advice generator" githubRepo="https://github.com/ManuGil22/advice-generator-app" liveSite="https://manugil22.github.io/advice-generator-app/" />
                 </div>
             </div>
+            <div className='contact-section'>
+                <h2 className='contact-header'>Lets work together...</h2>
+                <div className='contact-links'>
+                    <a href="https://www.linkedin.com/in/manuel-gil-958687235/"><BsLinkedin className="icon" color='white'/></a>
+                    <a href="https://wa.me/5492235951246"><BsWhatsapp className="icon" color='white'/></a>
+                    <a href="https://github.com/ManuGil22"><BsGithub className="icon" color='white' /></a>
+                    <a href="https://mailto:manuelgilmoltrasio@gmail.com"> <BsFillEnvelopeFill className="icon" color='white' /></a>
+                </div>
+            </div>
+            <footer>
+                <div className='footer-divider'></div>
+                <p>© Created by Manuel Gil</p>
+            </footer>
         </main>
   );
 }
