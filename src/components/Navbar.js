@@ -7,7 +7,7 @@ function Navbar() {
                 <ul className='nav-list'>
                     <li><a href='#home-section'>About</a></li>
                     <li><a href='#work-section'>Work</a></li>
-                    <li><a href='#'>Contact</a></li>
+                    <li><a href='#contact-section'>Contact</a></li>
                 </ul>
             </navbar>
         </>

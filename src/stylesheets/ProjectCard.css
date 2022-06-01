@@ -39,12 +39,11 @@
 
 .project-title {
     font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    font-weight: bold;
     color: white;
     letter-spacing: 2px;
     margin: 40px;
+    width: fit-content;
 }
 
 .project-title:hover{
@@ -63,8 +62,8 @@ a {
 
 #gh:hover {
     cursor: pointer;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
 }
 
 #icon-btn {
