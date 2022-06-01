@@ -2,6 +2,7 @@
   --navbar-color: #C71F37;
   --navbar-hover-color: #A71E34;
   --home-background-color: #161a1d;
+  --projects-background-color: #D3D3D3;
 }
 
 * {
@@ -37,6 +38,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #a7a5a6;
 }
 
 .projects-header {
