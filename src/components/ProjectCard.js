@@ -8,7 +8,7 @@ function ProjectCard({ imgSrc, cardTitle, githubRepo, liveSite }) {
             <div className='divider'></div>
             <div className='project-info'>
                 <div><a href={liveSite} className='project-title'>{cardTitle}</a></div>
-                <a href={githubRepo} id="icon-btn"><BsGithub id='gh' color='white'/></a>
+                <a href={githubRepo} target="_blank" rel="noreferrer" id="icon-btn"><BsGithub id='gh' color='white'/></a>
             </div>
         </div>
     );

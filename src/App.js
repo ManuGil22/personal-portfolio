@@ -2,7 +2,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import ProjectCard from './components/ProjectCard';
 import { BsLinkedin, BsWhatsapp, BsGithub, BsFillEnvelopeFill } from 'react-icons/bs'
-import { SiFrontendmentor } from 'react-icons/si'
+import { SiFrontendmentor, SiHtml5, SiCss3, SiJavascript, SiNodedotjs, SiReact, SiBootstrap } from 'react-icons/si'
+
 
 function App() {
     return (
@@ -11,6 +12,14 @@ function App() {
             <div className='home-section' id='home-section'>
                 <h1>Hey Im Manuel</h1>
                 <h2>a frontend developer</h2>
+                <div className='tecnologies-container'>
+                    <div className='icon-container'><SiReact color='white' className='tec-icon'/></div>
+                    <div className='icon-container'><SiHtml5 color='white' className='tec-icon'/></div>
+                    <div className='icon-container'><SiCss3 color='white' className='tec-icon'/></div>
+                    <div className='icon-container'><SiJavascript color='white' className='tec-icon'/></div>
+                    <div className='icon-container'><SiBootstrap color='white' className='tec-icon'/></div>
+                    <div className='icon-container'><SiNodedotjs color='white' className='tec-icon'/></div>
+                </div>
             </div>
             <div className='work-section' id='work-section'>
                 <p className='projects-header'>These are some of my projects</p>
@@ -21,14 +30,14 @@ function App() {
                 </div>
                 <a href="https://www.frontendmentor.io/profile/ManuGil22/solutions" target="_blank" rel="noreferrer" class="btn" id="profile-link">Show all ➜</a>
             </div>
-            <div className='contact-section'>
-                <h2 className='contact-header'>Lets work together...</h2>
+            <div className='contact-section' id='contact-section'>
+                <h2 className='contact-header'>Lets work together!</h2>
                 <div className='contact-links'>
-                    <a href="https://www.linkedin.com/in/manuel-gil-958687235/" target="_blank" rel="noreferrer"><BsLinkedin className="icon" color='white'/></a>
-                    <a href="https://wa.me/5492235951246" target="_blank" rel="noreferrer"><BsWhatsapp className="icon" color='white'/></a>
-                    <a href="https://github.com/ManuGil22" target="_blank" rel="noreferrer"><BsGithub className="icon" color='white' /></a>
-                    <a href="https://mailto:manuelgilmoltrasio@gmail.com" target="_blank" rel="noreferrer"><BsFillEnvelopeFill className="icon" color='white' /></a>
-                    <a href="https://www.frontendmentor.io/profile/ManuGil22" target="_blank" rel="noreferrer"><SiFrontendmentor className="icon" color='white' /></a>
+                    <a href="https://www.linkedin.com/in/manuel-gil-958687235/" target="_blank" rel="noreferrer"><BsLinkedin className="contact-icon" color='white'/></a>
+                    <a href="https://wa.me/5492235951246" target="_blank" rel="noreferrer"><BsWhatsapp className="contact-icon" color='white'/></a>
+                    <a href="https://github.com/ManuGil22" target="_blank" rel="noreferrer"><BsGithub className="contact-icon" color='white' /></a>
+                    <a href="https://mailto:manuelgilmoltrasio@gmail.com" target="_blank" rel="noreferrer"><BsFillEnvelopeFill className="contact-icon" color='white' /></a>
+                    <a href="https://www.frontendmentor.io/profile/ManuGil22" target="_blank" rel="noreferrer"><SiFrontendmentor className="contact-icon" color='white' /></a>
                 </div>
             </div>
             <footer>

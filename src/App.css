@@ -60,6 +60,34 @@ footer p {
   padding-bottom: 150px;
 }
 
+.tecnologies-container{
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 200px;
+}
+
+.icon-container{
+  margin: 45px;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tec-icon{
+  width: 65px;
+  height: 65px;
+}
+
+.tec-icon:hover{
+  width: 75px;
+  height: 75px;
+}
+
 .projects-header {
   font-size: 48px;
   text-decoration: underline;
@@ -104,12 +132,12 @@ footer p {
   align-items: center;
 }
 
-.icon {
+.contact-icon {
   width: 35px;
   height: 35px;
 }
 
-.icon:hover{
+.contact-icon:hover{
   width: 50px;
   height: 50px;
 }
