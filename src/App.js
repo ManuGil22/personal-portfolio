@@ -43,7 +43,7 @@ function App() {
         <main className="App">
             <Navbar/>
             <div className='home-section' id='home-section'>
-                <h1>Hey Im Manuel</h1>
+                <h1>Hey Im Manuel Gil</h1>
                 <h2>a frontend developer</h2>
                 <div className='tecnologies-container'>
                     <div className='icon-container'><SiReact color='white' className='tec-icon'/></div>
