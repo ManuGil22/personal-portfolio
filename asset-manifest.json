@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.f3efe832.css",
-    "main.js": "/personal-portfolio/static/js/main.407c1ccd.js",
+    "main.js": "/personal-portfolio/static/js/main.255e3c80.js",
     "static/media/calculator.png": "/personal-portfolio/static/media/calculator.22c298bb009aae9508e4.png",
     "static/media/todo-list.png": "/personal-portfolio/static/media/todo-list.c8debdc3c6b839515234.png",
     "static/media/advice-generator.png": "/personal-portfolio/static/media/advice-generator.6a994afa3e12f32022e3.png",
     "index.html": "/personal-portfolio/index.html",
     "main.f3efe832.css.map": "/personal-portfolio/static/css/main.f3efe832.css.map",
-    "main.407c1ccd.js.map": "/personal-portfolio/static/js/main.407c1ccd.js.map"
+    "main.255e3c80.js.map": "/personal-portfolio/static/js/main.255e3c80.js.map"
   },
   "entrypoints": [
     "static/css/main.f3efe832.css",
-    "static/js/main.407c1ccd.js"
+    "static/js/main.255e3c80.js"
   ]
 }
