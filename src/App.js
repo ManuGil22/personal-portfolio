@@ -3,9 +3,42 @@ import Navbar from './components/Navbar';
 import ProjectCard from './components/ProjectCard';
 import { BsLinkedin, BsWhatsapp, BsGithub, BsFillEnvelopeFill } from 'react-icons/bs'
 import { SiFrontendmentor, SiHtml5, SiCss3, SiJavascript, SiNodedotjs, SiReact, SiBootstrap } from 'react-icons/si'
+import { FaArrowUp } from 'react-icons/fa'
+
+
+function handleButtonLogic() {
+    var rootElement = document.documentElement;
+    
+    const stt = function scrollToTop() {
+    // Scroll to top logic
+    rootElement.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
+    }
+
+    const showOnPx = 100;
+
+    const scrollContainer = () => {
+        return document.documentElement || document.body;
+    };
+
+    document.addEventListener("scroll", () => {
+        if (scrollContainer().scrollTop > showOnPx) {
+            document.getElementById("scrollToTopBtn").style.display="block";
+        } else {
+            document.getElementById("scrollToTopBtn").style.display="none";
+        }
+    })
+
+    return stt;
+}    
 
 
 function App() {
+
+    const scrollToTop = handleButtonLogic();
+    
     return (
         <main className="App">
             <Navbar/>
@@ -40,6 +73,7 @@ function App() {
                     <a href="https://www.frontendmentor.io/profile/ManuGil22" target="_blank" rel="noreferrer"><SiFrontendmentor className="contact-icon" color='white' /></a>
                 </div>
             </div>
+            <button className='hidden' id="scrollToTopBtn" onClick={() => scrollToTop()}><FaArrowUp color='white' id='btn-icon'/></button>
             <footer>
                 <div className='footer-divider'></div>
                 <p>© Created by Manuel Gil</p>
