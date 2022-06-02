@@ -43,6 +43,7 @@ footer p {
 }
 
 .home-section{
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,12 +62,11 @@ footer p {
 }
 
 .tecnologies-container{
+  padding-top: 100px;
   height: 85px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  top: 200px;
 }
 
 .icon-container{
@@ -158,4 +158,90 @@ footer p {
 
 .btn:hover{
   color: var(--navbar-color);
+}
+
+@media (max-width: 1600px){
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 1100px){
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+  .tecnologies-container{
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 750px){
+  .projects-header {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px){
+  /*barra*/
+  h1{
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .projects-header {
+    font-size: 26px;
+  }
+  .icon-container{
+    margin: 25px;
+    width: 65px;
+    height: 65px;
+  }
+  .tec-icon:hover{
+    width: 65px;
+    height: 65px;
+  }
+  .contact-header {
+    font-size: 28px;
+  }
+  .contact-links a {
+    margin: 10px 10px 40px 10px;
+  }
+  .contact-icon {
+    width: 35px;
+    height: 35px;
+  }
+  .contact-icon:hover{
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 450px){
+  .projects-header{
+    font-size: 22px;
+  }
+  .contact-header {
+    font-size: 26px;
+  }
+  .contact-links a {
+    margin: 10px 5px 30px 5px;
+  }
+  .tecnologies-container{
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 50px;
+  }
+  .tec-icon{
+    width: 50px;
+    height: 50px;
+  }
+  .tec-icon:hover{
+    width: 50px;
+    height: 50px;
+  }
+  .home-section{
+    padding-top: 50px;
+  }
 }

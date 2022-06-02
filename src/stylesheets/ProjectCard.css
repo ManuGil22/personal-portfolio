@@ -70,3 +70,24 @@ a {
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 600px){
+    .project-card {
+        width: 300px;
+        height: 370px;
+        margin: 40px;
+    }
+    .project-title {
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin: 0 0 0 20px;
+    }
+}
+
+@media (max-width: 450px){
+    .project-card {
+        width: 250px;
+        height: 320px;
+        margin: 30px;
+    }
+  }
